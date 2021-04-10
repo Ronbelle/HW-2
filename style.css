@@ -1,0 +1,501 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none;
+}
+
+#header {
+    display: flex; 
+}
+
+
+
+
+#name {
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    margin-top: 75px;
+    margin-left: 21px;
+    font-size: 40px;
+   background-color: #0b0f11;
+    color:white;
+    border:solid 15px #13afea; 
+    border-radius: 17%;
+}
+
+#menu {
+    border: 20px solid #13afea; 
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 10px; 
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+   
+}
+
+#menu li {
+    float: right; 
+    
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: underline;
+    
+}
+
+#menu li a:hover {
+    background-color: #13afea; 
+}
+
+audio {
+    float:right;
+    width: 222px;
+    height: 62px;
+    color:black;
+    
+    
+}
+
+#Web {
+    background-color:black;
+    color:white;
+    margin-right: auto;
+    text-align:center;
+    font-size: 28px;
+    
+
+
+}
+
+#intro {
+    display: flex; 
+    background-color: black;
+    color: white; 
+    font-family: 'Lora', serif;
+    border: 20px solid white; 
+}
+
+#intro img {
+    
+    height: 750px; 
+    width: 800px;  
+    border-radius: 50%;
+
+}
+
+#about {
+    text-align: center;
+    margin: 20px; 
+    margin-top: 300px;
+    font-weight: lighter;
+}
+
+
+#about h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    border: 33px solid #13afea;
+    padding: 73px;
+    text-align: center;
+}
+
+#about p {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+::selection {
+    background: #13afea;; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #13afea;; /* Gecko Browsers */
+  }
+
+#Mywork {
+    padding: 10px;
+    padding-bottom: 43px;
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border: 20px solid #13afea;
+    font-family: 'Lora', serif;
+    color: white;
+    
+    
+}
+
+
+#Mywork h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    border: 33px solid #13afea;
+    padding: 73px;
+    text-align: center;
+}
+
+
+
+#recent-project {
+    object-position: top right; 
+
+}
+
+#recent-project img{
+    height: 800px;
+    width: 600px;
+    
+}
+#recent-project img:hover {
+    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+.proj { 
+    padding: 20px; 
+    color: white; 
+    text-align: center;
+   
+
+}
+
+.proj img {
+    height: 300px;
+    width: 800px;  
+    flex: 50%; 
+    border: 8px solid #13afea;
+    opacity: 1;
+transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.proj img:hover {
+        -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+        filter: blur(4px);
+    }
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+ 
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#13afea;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(22 174 234);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color:#13afea;
+    color: rgb(70, 187, 233);
+    box-shadow: 0 5px 15px rgb(247, 253, 255);
+  }
+
+  
+
+
+
+#footer {
+    display: flex; 
+    margin-bottom: 40px;
+}
+
+
+#footer div {
+    font-size: 30px;
+    margin:  0 auto;
+    text-align: center;
+    
+}
+
+#footer .icon{
+    height: 50px; 
+    width: 50px; 
+    margin: 10px; 
+}
+
+#footer #email{
+    padding: 20px;
+}
+
+#footer .bolder {
+    font-weight: bolder;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  
+    
+    #name #web{
+        font-family: 'Lora', serif;
+    font-weight: bolder;
+    margin-top: 68px;
+    margin-left: px;
+    font-size: 46px;
+    
+    }
+    
+    #menu {
+        border: 20px solid white; 
+        margin: 0px -4px 9px 0px;
+    }
+    
+    #menu ul {
+        list-style-type: none;
+        background-color: black;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+    }
+    
+    #menu li a {
+        color: white; 
+        padding: 0px 10px; 
+        text-decoration: none;
+    }
+    
+    #intro {
+        display: flex; 
+        flex-direction: column;
+        background-color: black;
+        color: white; 
+        font-family: 'Lora', serif;
+        border: 20px solid white; 
+        margin: -28px 0px 10px 0px; 
+    }
+    
+    #intro img {
+        
+        width: 200px; 
+        height: 200px; 
+        margin: -16px 0px 15px 86px; 
+    }
+    
+    #about {
+        text-align: center;
+        font-weight: lighter;
+    }
+    
+    #about h2 {
+        margin-bottom: 12px;
+        margin-top: -273px; 
+        font-size: 23px;
+    }
+    
+    #about p {
+        font-size: 14px;
+    }
+    
+    #Mywork {
+        display: flex; 
+        flex-flow: column wrap;
+        align-items: baseline;
+        background-color: black;
+        border: 20px solid white;
+        font-family: 'Lora', serif;
+        color: white; 
+        text-align: center;
+    }
+    
+    
+    #Mywork h1 {
+        font-size: 24px;
+        border: none; 
+        margin: -40px 0px -20px 45px; 
+    }
+    
+    #recent-project h2, h3{
+        font-size: 16px; 
+        text-align: center;
+    }
+    
+    #recent-project img{
+        height: 400px;
+        width: 335px;
+        
+    }
+    
+    .proj { 
+        color: white; 
+        margin-top: -23px; 
+    }
+    
+    .proj h2, h3{
+        font-size: 16px;
+    }
+    
+    .proj img {
+        height: 200px;
+        width: 321px;  
+        margin: 0px 0px 0px -18px; 
+       
+    }
+    
+    #footer {
+        display: flex; 
+    }
+    
+    
+    #footer div {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+    #footer .icon{
+        height: 50px; 
+        width: 50px; 
+        margin: 10px; 
+    }
+
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  
+
+    
+    #name {
+        display: none; 
+        text-align:center;   
+    }
+    
+    #menu {
+        border: 20px solid white; 
+        margin: -15px 20px 8px 11px;
+    }
+    
+    #menu ul {
+        list-style-type: none;
+        background-color: black;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+    }
+    
+    #menu li a {
+        color: white; 
+        padding: 0px 10px; 
+        text-decoration: none;
+    }
+    
+    #intro {
+        display: flex; 
+        background-color: black;
+        color: white; 
+        font-family: 'Lora', serif;
+        border: 20px solid white; 
+        margin: -26px 20px 10px 11px; 
+    }
+    
+    #intro img {
+
+        width: 230px; 
+        height: 233px; 
+        margin: 63px 67px 15px 86px; 
+    }
+    
+    #about {
+        text-align: center;
+        font-weight: lighter;
+    }
+    
+    #about h2 {
+        margin-bottom: 12px;
+        margin-top: -273px; 
+        font-size: 23px;
+    }
+    
+    #about p {
+        font-size: 14px;
+    }
+    
+    #Mywork {
+        display: flex; 
+        flex-flow: column wrap;
+        align-items: baseline;
+        background-color: black;
+        border: 20px solid white;
+        font-family: 'Lora', serif;
+        color: white; 
+        margin: -26px 20px 10px 11px; 
+    }
+    
+    
+    #Mywork h1 {
+        font-size: 24px;
+        margin: -40px 0px -20px 45px; 
+    }
+    
+    #recent-project h2, h3 {
+        font-size: 16px; 
+    }
+    
+    #recent-project img{
+        height: 400px;
+        width: 335px;
+    }
+    
+    .proj { 
+        color: white; 
+        margin-top: -23px; 
+    }
+    
+    .proj h2, h3{
+        font-size: 16px;
+    }
+    
+    .proj img {
+        height: 200px;
+        width: 335px;  
+        margin: 0px 0px 0px -18px; 
+    }
+    
+    #footer {
+        display: flex; 
+    }
+    
+    
+    #footer div {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+    #footer .icon{
+        height: 50px; 
+        width: 50px; 
+        margin: 10px; 
+    }
+    
