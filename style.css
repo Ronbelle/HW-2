@@ -17,10 +17,10 @@
     margin-top: 75px;
     margin-left: 21px;
     font-size: 40px;
-   background-color: #0b0f11;
+    background-color: #0b0f11;
     color:white;
     border:solid 15px #13afea; 
-    border-radius: 17%;
+   
 }
 
 #menu {
@@ -172,7 +172,7 @@ audio {
 }
 
 .proj img {
-    height: 300px;
+    height: 400px;
     width: 800px;  
     flex: 50%; 
     border: 8px solid #13afea;
@@ -262,10 +262,10 @@ transition: .5s ease;
   
     
     #name #web{
-        font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-weight: bolder;
-    margin-top: 68px;
-    margin-left: px;
+    margin-top: 75px;
+    margin-left: 76px;
     font-size: 46px;
     
     }
@@ -302,7 +302,7 @@ transition: .5s ease;
         
         width: 200px; 
         height: 200px; 
-        margin: -16px 0px 15px 86px; 
+        margin: 34px 0px 15px 86px; 
     }
     
     #about {
@@ -454,8 +454,9 @@ transition: .5s ease;
     
     
     #Mywork h1 {
-        font-size: 24px;
-        margin: -40px 0px -20px 45px; 
+        margin-bottom: 12px;
+        margin-top: -273px; 
+        font-size: 23px; 
     }
     
     #recent-project h2, h3 {
@@ -493,7 +494,7 @@ transition: .5s ease;
         
     }
     
-    #footer .icon{
+    #footer .icon {
         height: 50px; 
         width: 50px; 
         margin: 10px; 
